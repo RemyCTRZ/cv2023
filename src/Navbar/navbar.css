@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: var(--bg-grey);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15rem;
+}
+
+.title {
+    cursor: default;
+    transition: color .3s ease, transform .3s ease;
+}
+
+.title:hover {
+    color: var(--txt-red);
+    transform: translateY(-5px);
+}
+
+.links_container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link {
+    height: 100%;
+    padding: 1rem .3rem;
+    color: var(--txt-white);
+    font-weight: 500;
+    transition: color .3s ease, border-bottom .5s ease;
+    cursor: pointer;
+    border-bottom: 2px solid var(--bg-grey);
+}
+
+.link:hover,
+.active {
+    color: var(--txt-red);
+    border-bottom: 2px solid var(--txt-red);
+}
