@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carrousel {
+    list-style-type: none;
+}
+
+.item {
+    padding: 1rem;
+    border: 2px solid var(--txt-red);
+    border-radius: 5px;
+    background-image: url('../../public/item_bg.png');
+    background-position: center;
+    background-size: 100%;
+}
+
+.headtitle {
+    color: var(--txt-red);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item {
+    width: 50rem;
+}

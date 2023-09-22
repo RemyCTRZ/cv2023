@@ -1,0 +1,20 @@
+.medias {
+    position: fixed;
+    left: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    font-size: 2rem;
+    color: var(--txt-red);
+    transition: transform .2s ease-in;
+}
+
+.media:hover {
+    transform: scale(1.1);
+}
