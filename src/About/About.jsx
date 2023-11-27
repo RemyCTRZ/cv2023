@@ -1,6 +1,8 @@
 import './about.css'
 
 export default function About() {
+
+
     return (
         <section className='about'>
             <ul className='carrousel'>
@@ -22,9 +24,41 @@ export default function About() {
                         La diversité permet de se démarquer, pas par une meilleure éxecution, mais par une orignalité, un style bien défini qui nous correspond.
                         <br />
                         <br />
-                        J’essaie de donner vie à mes idées avec les outils à ma dispoistion.</p>
+                        J’essaie de donner vie à mes idées avec les outils à ma disposition.</p>
+                </li>
+                <li className='item'>
+                    <h2 className='headtitle'>Un esprit créatif</h2>
+                    <p className='description'>Beaucoup d’idées en tête, que ce soit des designs de logos, de sites, d’assets en tout genres. Je m’inspire énormément du travail déjà réalisé de certains professionnels sans pour autant rester fixé sur le travail d’une seule personne.
+                        <br />
+                        <br />
+                        La diversité permet de se démarquer, pas par une meilleure éxecution, mais par une orignalité, un style bien défini qui nous correspond.
+                        <br />
+                        <br />
+                        J’essaie de donner vie à mes idées avec les outils à ma disposition.</p>
+                </li>
+                <li className='item'>
+                    <h2 className='headtitle'>Un esprit créatif</h2>
+                    <p className='description'>Beaucoup d’idées en tête, que ce soit des designs de logos, de sites, d’assets en tout genres. Je m’inspire énormément du travail déjà réalisé de certains professionnels sans pour autant rester fixé sur le travail d’une seule personne.
+                        <br />
+                        <br />
+                        La diversité permet de se démarquer, pas par une meilleure éxecution, mais par une orignalité, un style bien défini qui nous correspond.
+                        <br />
+                        <br />
+                        J’essaie de donner vie à mes idées avec les outils à ma disposition.</p>
+                </li>
+                <li className='item'>
+                    <h2 className='headtitle'>Un esprit créatif</h2>
+                    <p className='description'>Beaucoup d’idées en tête, que ce soit des designs de logos, de sites, d’assets en tout genres. Je m’inspire énormément du travail déjà réalisé de certains professionnels sans pour autant rester fixé sur le travail d’une seule personne.
+                        <br />
+                        <br />
+                        La diversité permet de se démarquer, pas par une meilleure éxecution, mais par une orignalité, un style bien défini qui nous correspond.
+                        <br />
+                        <br />
+                        J’essaie de donner vie à mes idées avec les outils à ma disposition.</p>
                 </li>
             </ul>
         </section>
     )
+
+
 }

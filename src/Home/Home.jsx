@@ -3,6 +3,7 @@ import './home.css'
 export default function Home() {
     return (
         <main className='main'>
+            <div className='hex'></div>
             <div className='left'>
                 <h1 className='name'>Je suis Rémy Cottrez</h1>
                 <p className='info'>Jeune développeur web full-stack prêt à vous accompagner dans vos projets</p>
